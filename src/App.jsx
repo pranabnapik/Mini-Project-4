@@ -50,6 +50,8 @@ const App = () => {
           <Route path="/jobs" element={<JobList />} />
           <Route path="/jobs/:id" element={<JobDetails />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/post-job" element={<PostJob />} />
+        <Route path="/search" element={<JobSearch />} />
         </Routes>
       </div>
     </Router>
