@@ -6,6 +6,8 @@ import Dashboard from './pages/Dashboard';
 import JobList from './pages/JobList';
 import JobDetails from './pages/JobDetails';
 import Profile from './pages/Profile';
+import PostJob from './pages/PostJob';
+import JobSearch from './pages/JobSearch';
 
 const App = () => {
   return (
