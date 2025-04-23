@@ -11,7 +11,7 @@ const JobDetails = () => {
   }, [id]);
 
   const handleApply = () => {
-    // Add actual apply logic later
+    
     alert('Application submitted!');
   };
 

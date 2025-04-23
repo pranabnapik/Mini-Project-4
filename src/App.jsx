@@ -12,7 +12,7 @@ import JobSearch from './pages/JobSearch';
 const App = () => {
   return (
     <Router>
-      {/* Navbar */}
+      
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
         <div className="container">
           <Link className="navbar-brand" to="/">JobConnect</Link>
@@ -41,7 +41,7 @@ const App = () => {
         </div>
       </nav>
 
-      {/* Page Content */}
+      
       <div className="container mt-4">
         <Routes>
           <Route path="/" element={<Dashboard />} />
